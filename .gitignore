@@ -1,0 +1,63 @@
+# ===============================
+# Python environments
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+
+# ===============================
+# Python cache / bytecode
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ===============================
+# Build artifacts
+# ===============================
+build/
+dist/
+*.egg-info/
+
+# ===============================
+# Testing / coverage
+# ===============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ===============================
+# Type checking / lint caches
+# ===============================
+.mypy_cache/
+.ruff_cache/
+
+# ===============================
+# Jupyter notebooks
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Environment variables
+# ===============================
+.env
+
+# ===============================
+# Sentinel Agent runtime outputs
+# ===============================
+artifacts/*
+logs/*
+
+# Keep folder structure but ignore contents
+!artifacts/.keep
+!logs/.keep
